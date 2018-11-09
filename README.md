@@ -27,3 +27,5 @@ python consumer.py
 
 Open another terminal window and `cd` into same directory and run `python producer.py`.
 Send your messages by pressing your system's EOF key sequence. (ctrl-d in bash)
+
+Download CA certificate from https://www.cloudkarafka.com/certs/cloudkarafka.ca . Add it to file cloudkarafka.ca and save under python-kafka-example directory. 
