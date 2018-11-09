@@ -14,6 +14,7 @@ if __name__ == '__main__':
         'default.topic.config': {'auto.offset.reset': 'smallest'},
         'security.protocol': 'SASL_SSL',
 	'sasl.mechanisms': 'SCRAM-SHA-256',
+	'ssl.ca.location': './cloudkarafka.ca',
         'sasl.username': os.environ['CLOUDKARAFKA_USERNAME'],
         'sasl.password': os.environ['CLOUDKARAFKA_PASSWORD']
     }
